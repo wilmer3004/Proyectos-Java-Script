@@ -1,0 +1,28 @@
+
+.posicion-reloj{
+    padding-top: 6rem;
+    z-index: 10; 
+
+
+}
+
+.reloj-digital {
+    border: .3rem solid rgb(41, 147, 209);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.3rem;
+    color: rgb(119, 212, 255);
+    z-index: 10; 
+    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute; 
+    transform: translateX(-50%);
+    background: rgb(224, 235, 255);
+}
+
+
+
