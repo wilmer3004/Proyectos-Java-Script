@@ -3,7 +3,11 @@
         "AMPM",
         "boton",
         "botonbailar",
+        "cuadradito",
         "esqueletoquieto",
-        "posicion"
+        "posicion",
+        "puntaje",
+        "Puntaje",
+        "selec"
     ]
 }
