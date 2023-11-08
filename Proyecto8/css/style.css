@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: rgb(83, 200, 220);
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contenedor2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cuentaRegresiva{
+    color: red;
+    font-size: 45px;
+    text-shadow: 0px 0px 8px 10px rgb(19, 19, 19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuentaAtras{
+    display: flex;
+    gap: 50px;
+    font-size: 45px;
+}
+
+.botones.of{
+    pointer-events: none;
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0px 10px;
+    color:  rgb(255, 55, 0);
+    background: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2rem;
+    height: 50px;
+    width: 90px;
+    text-transform: uppercase;
+}
+
+
+.botones.on{
+    padding: 6px 16px;
+    border: none;
+    margin: 0px 10px;
+    color:  rgb(255, 255, 255);
+    background: rgb(255, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2rem;
+    cursor: pointer;
+    height: 50px;
+    width: 90px;
+    text-transform: uppercase;
+    
+}
+
+
+
+.papaNoelOff{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(170, 215, 188);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url("../img/papaNoel.png");
+}
+
+.papaNoelOff.on{
+    background-image: url("../img/papaNoel.gif");
+    width: 650px;
+    height: 500px;
+}
+.caja{
+    border-radius: 15vh;
+    border: solid 0.2rem rgb(255, 248, 248);
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 10px 0px rgb(13, 110, 128);
+}
+
+.contfecha{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contfecha>p{
+    color: white;
+    font-size: 35px;
+}
