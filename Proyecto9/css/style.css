@@ -1,7 +1,60 @@
+/* Wilmer Capera */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: #00AAFF;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: #FDFFF7;
+    margin-top: 3rem;
+    gap: 30px;
+}   
+
+.title > img{
+    width: 70px;
+    height: 70px;
+}
+
+.eventos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 260px;
+    background-color: #EFF8FF;
+    border: none;
+    border-radius: 1.7rem;
+    box-shadow: 0px 0px 20px 7px #D5FEFF;
+}
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+.formulario input{
+    border: solid 2px #76BAD9;
+    width: 330px;
+    height: 40px;
+    border-radius: 0.9rem;
+    font-size: 16px;
 }
 
 
