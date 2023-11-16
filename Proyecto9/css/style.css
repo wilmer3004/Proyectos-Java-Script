@@ -3,10 +3,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
     background: #00AAFF;
+    min-height: 100vh;
 }
 
 .title{
@@ -37,7 +39,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 420px;
+    width: 470px;
     height: 260px;
     background-color: #EFF8FF;
     border: none;
@@ -51,15 +53,96 @@ body{
   }
 .formulario input{
     border: solid 2px #76BAD9;
-    width: 330px;
-    height: 40px;
+    width: 360px;
+    height: 45px;
     border-radius: 0.9rem;
     font-size: 16px;
+    padding: 8px;
 }
 
+#agregar{
+    background: #00AAFF;
+    height: 60px;
+    border-radius: 1.3rem;
+}
+
+.listaEventos2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+    width: 68rem;
+    min-height: 4px;
+    height: auto;
+    background: white;
+    background-color: #EFF8FF;
+    border: none;
+    border-radius: 1.7rem;
+    box-shadow: 0px 0px 20px 7px #D5FEFF;
+    margin-top: 28px;
 
 
+}
+
+.evento{
+    width: 64rem;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border-radius: 1.2rem;
+    border: solid 4px #76BAD9;
+    margin: 30px;
 
 
+}
 
+.dias{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.diasFaltantes{
+    color:#2BAE52;
+    font-size: 47px;
+}
+
+.texto{
+    font-size: 20px;
+    align-items: center;
+}
+
+.nombreEvento {
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    max-width: 200px; /* Establece el ancho mínimo */
+    overflow-x: auto;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+.fechaEvento{
+    font-size: 20px;
+    align-items: center;
+}
+
+.eliminar{
+    width: 120px;
+    height: 65px;
+    border-radius: 0.5rem;
+    border: none;
+    background: rgb(29, 223, 29);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.eliminar:hover{
+    cursor: pointer;
+    color: white;
+    background: red;
+}
 
