@@ -63,6 +63,7 @@ body{
 #agregar{
     background: #00AAFF;
     height: 60px;
+    color: white;
     border-radius: 1.3rem;
 }
 
@@ -91,7 +92,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: white;
+    background: #EFF8FF;
     border-radius: 1.2rem;
     border: solid 4px #76BAD9;
     margin: 30px;
